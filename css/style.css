@@ -1,0 +1,150 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  background: #f5bcf5;
+}
+
+nav > li {
+   margin: 0px 20px 0px 30px;
+  padding: 10px 20px;
+  background: #f5bcf5;
+  border-radius: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#x {
+  display: flex;
+  justify-content: right;
+  margin-top: -20px;
+}
+
+#submit {
+  background: #f5bcf5;
+  border: solid black 2px;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 10px;
+}
+
+#aboutModal {
+  background: #A1F7BD;
+  border: solid black .5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#cowsModal {
+  background: #A1F7BD;
+  border: solid black .5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#coffeeModal {
+  background: #A1F7BD;
+  border: solid black .5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#contactForm {
+  background: #A1F7BD;
+  border: solid black .5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#cowPoll {
+  text-align: center;
+   background: #A1F7BD;
+  border: solid black .5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#aLittle, #abs {
+  background: #D6DAD7;
+  border: solid black .5px;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#cowPollForm {
+  text-align: center;
+   background: #A1F7BD;
+  border: solid black .5px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
